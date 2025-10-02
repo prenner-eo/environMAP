@@ -1,17 +1,17 @@
 # Welcome
 
 
-This is the public website for the **[Project Title — replace later]** research project.
+This is the public website for **environMAP**.
 
 
 Use the navigation to explore:
 
 
-- **Project Goal** — What we aim to discover and why it matters.
-- **Regions & Cohort Sites** — Where data comes from and how cohorts are organized.
-- **Geodata Access** — How to apply for data access and governance principles.
-- **Impressum** — Legal notice and responsible parties.
-- **Contact** — How to reach the team.
+[**Project Goal**](project-goal.md) — What we aim to discover and why it matters.
+
+[**Regions & Cohort Sites**](regions-and-cohorts.md) —  from and how cohorts are organized.
+
+[**Geodata Access**](geodata-access.md) — How to apply for data access and governance principles.
 
 
 > *A preprint / paper will be linked here once available.*

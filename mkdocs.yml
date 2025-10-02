@@ -1,5 +1,5 @@
-site_name: Research Project Website
-site_url: https://prenner-eo.github.io/environMAP
+site_name: environMAP
+site_url: https://prenner-eo.github.io/environMAP/
 repo_url: https://github.com/prenner-eo/environMAP
 repo_name: prenner-eo/environMAP
 
@@ -13,6 +13,8 @@ nav:
 
 theme:
   name: material
+  logo: assets/images/environmental-logo-color.png
+  favicon: assets/images/environmental-logo-color.png
   features:
     - navigation.instant
     - navigation.tracking
@@ -32,3 +34,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/prenner-eo
       name: GitHub
+
+extra_css:
+  - assets/overrides.css
