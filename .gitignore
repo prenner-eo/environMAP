@@ -1,0 +1,8 @@
+# Python / mkdocs / OS
+__pycache__/
+*.py[cod]
+*~
+.DS_Store
+site/
+.env
+.mypy_cache/

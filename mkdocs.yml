@@ -1,0 +1,34 @@
+site_name: Research Project Website
+site_url: https://prenner-eo.github.io/environMAP
+repo_url: https://github.com/prenner-eo/environMAP
+repo_name: prenner-eo/environMAP
+
+nav:
+  - Home: index.md
+  - Project Goal: project-goal.md
+  - Regions & Cohort Sites: regions-and-cohorts.md
+  - Geodata Access: geodata-access.md
+  - Impressum: impressum.md
+  - Contact: contact.md
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/prenner-eo
+      name: GitHub
