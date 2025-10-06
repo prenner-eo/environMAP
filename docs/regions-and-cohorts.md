@@ -13,11 +13,3 @@ We collaborate with multiple cohort sites:
 
 
 ![Cohort regions overview](assets/images/environMAP_roi.png)
-
-**Planned content**
-
-
-- Country/region overview
-- Cohort recruitment and inclusion criteria
-- Measurement protocols (brief)
-- Data governance and ethics approvals (links where possible)
