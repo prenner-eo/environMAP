@@ -4,13 +4,10 @@
 **Responsible according to § 5 TMG (Germany)**
 
 
-Paul Renner
-
-
 Institution: Chair of Earth Observation | Friedrich Schiller University Jena
 
 
-Address: JenTower 26. Etage | Leutragraben 1 | 07743 Jena | Germany
+Address: JenTower 26. Floor | Leutragraben 1 | 07743 Jena | Germany
 
 
 Email: paul.renner@uni-jena.de
