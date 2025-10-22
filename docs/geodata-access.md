@@ -7,8 +7,8 @@ Access to geospatial data used in this project follows a **request-based** model
 **How to request access**
 
 
-1. Review the documentation and code references in the repository.
-2. Contact the data access committee (see **Contact** page).
+1. Review the requierments.
+2. Contact the data access committee at Berlin Institute of Health by Charité.
 3. Provide a short proposal outlining research aims, required variables, and intended analyses.
 
 
