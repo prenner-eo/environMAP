@@ -12,7 +12,7 @@ Access to geospatial data used in this project follows a **request-based** model
 3. Provide a short proposal outlining research aims, required variables, and intended analyses.
 
 
-**Governance principles**
+**Governance principles & Requierments**
 
 
 - Compliance with GDPR and local data protection regulations.
