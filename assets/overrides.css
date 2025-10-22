@@ -1,0 +1,11 @@
+:root {
+  --md-primary-fg-color:        #5EBBF0;
+  --md-primary-fg-color--light: #5EBBF0;
+  --md-primary-fg-color--dark:  #5EBBF0;
+  --md-accent-fg-color:         #BDDD6D;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --md-primary-fg-color: #5EBBF0;
+  }
+}
