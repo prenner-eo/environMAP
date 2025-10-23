@@ -427,7 +427,7 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Grey Spaces: World Settlement Footprint (WSF) 3D <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></strong></td>
+<td><strong>Grey Spaces: World Settlement Footprint (WSF) 3D <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">3</a></sup></strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -476,7 +476,7 @@
 <td>m³</td>
 </tr>
 <tr>
-<td><strong>Green Spaces: Tree Cover <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> and NDVI <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></strong></td>
+<td><strong>Green Spaces: Tree Cover <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">4</a></sup> and NDVI <sup id="fnref:3"><a class="footnote-ref" href="#fn:3">5</a></sup></strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -497,7 +497,7 @@
 <td>%</td>
 </tr>
 <tr>
-<td><strong>Blue Spaces: Distance to Waterbodies <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></strong></td>
+<td><strong>Blue Spaces: Distance to Waterbodies <sup id="fnref:4"><a class="footnote-ref" href="#fn:4">6</a></sup></strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -518,7 +518,7 @@
 <td>%</td>
 </tr>
 <tr>
-<td><strong>Light Exposure: Night-time Lights <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup> and Solar Radiation</strong> <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup></td>
+<td><strong>Light Exposure: Night-time Lights <sup id="fnref:5"><a class="footnote-ref" href="#fn:5">7</a></sup> <sup id="fnref:6"><a class="footnote-ref" href="#fn:6">8</a></sup> and Solar Radiation</strong> <sup id="fnref:7"><a class="footnote-ref" href="#fn:7">9</a></sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -546,7 +546,7 @@
 <td>W/m²</td>
 </tr>
 <tr>
-<td><strong>Elevation: Copernicus Digital Elevation Model (DEM) <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup></strong></td>
+<td><strong>Elevation: Copernicus Digital Elevation Model (DEM) <sup id="fnref:8"><a class="footnote-ref" href="#fn:8">10</a></sup></strong></td>
 <td></td>
 <td></td>
 <td></td>
@@ -603,233 +603,86 @@
 </tr>
 </tbody>
 </table>
-<table>
-<thead>
-<tr>
-<th>Variable Name</th>
-<th>Spatial Resolution</th>
-<th>Neighbourhood (Diameter) [m]</th>
-<th>Temporal Coverage</th>
-<th>Units</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Meteorology <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup></strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cloud cover (total, high, medium and low clouds)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Hourly; Monthly means and standard deviation</td>
-<td></td>
-</tr>
-<tr>
-<td>Temperature, 2 m</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Hourly; Diurnal range; Daily and monthly mean, maximum and minimum</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>Temperature, dewpoint</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Hourly; Daily and monthly diurnal range, mean, maximum and minimum; Monthly diurnal and mean standard deviation</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>Wet-bulb globe temperature (WBGTmax)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Daily and monthly mean; Monthly standard deviation</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>Precipitation volume</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Hourly; Daily and monthly mean; Monthly standard deviation</td>
-<td>mm/day</td>
-</tr>
-<tr>
-<td>Precipitation duration</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Daily and monthly duration; Monthly standard deviation; Daily duration of maximum events [h]</td>
-<td>h/day</td>
-</tr>
-<tr>
-<td>Total number of wet days (≥1 mm)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly total number of wet days (≥1 mm)</td>
-<td>days</td>
-</tr>
-<tr>
-<td>Simple Precipitation Intensity Index (mean on wet days ≥1 mm during the month)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>mm/day</td>
-</tr>
-<tr>
-<td><strong>Climate Extremes Indices <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>TXx: Monthly maximum value of daily maximum temperature</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>TNx: Monthly maximum value of daily minimum temperature</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>TNn: Monthly minimum value of daily minimum temperature</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>°C</td>
-</tr>
-<tr>
-<td>TX90p: Percentage of warm days (&gt;90th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>%</td>
-</tr>
-<tr>
-<td>TN90p: Percentage of warm nights (&gt;90th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>%</td>
-</tr>
-<tr>
-<td>TX10p: Percentage of cold days (&lt;10th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>%</td>
-</tr>
-<tr>
-<td>TN10p: Percentage of cold nights (&lt;10th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>%</td>
-</tr>
-<tr>
-<td>Warm spell duration index</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Yearly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>Cold spell duration index</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Yearly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>WBGTmax90p: Percentage of days with extreme WBGTmax (&gt;90th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>%</td>
-</tr>
-<tr>
-<td>CWD: Maximum number of consecutive wet days</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>Rx5D: Monthly highest 5-day precipitation amount</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>mm</td>
-</tr>
-<tr>
-<td>R10mm: Heavy precipitation days (≥10 mm)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>R20mm: Very heavy precipitation days (≥20 mm)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>R75pTOT: Moderate wet days per month (≥75th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>days</td>
-</tr>
-<tr>
-<td>R95pTOT: Very wet days per month (≥95th percentile)</td>
-<td>0.25°</td>
-<td>None</td>
-<td>Monthly</td>
-<td>days</td>
-</tr>
-</tbody>
-</table>
+<p>| <strong>Weather Patterns and Extreme Weather Data <sup id="fnref:9"><a class="footnote-ref" href="#fn:9">1</a></sup></strong>                             |                    |                              |                                                                                                                 |        |
+| Cloud cover (total, high, medium and low clouds)                               | 0.25°              | None                         | Hourly; Monthly means and standard deviation                                                                    |        |
+| Temperature, 2 m                                                               | 0.25°              | None                         | Hourly; Diurnal range; Daily and monthly mean, maximum and minimum                                              | °C     |
+| Temperature, dewpoint                                                          | 0.25°              | None                         | Hourly; Daily and monthly diurnal range, mean, maximum and minimum; Monthly diurnal and mean standard deviation | °C     |
+| Wet-bulb globe temperature (WBGTmax)                                           | 0.25°              | None                         | Daily and monthly mean; Monthly standard deviation                                                              | °C     |
+| Precipitation volume                                                           | 0.25°              | None                         | Hourly; Daily and monthly mean; Monthly standard deviation                                                      | mm/day |
+| Precipitation duration                                                         | 0.25°              | None                         | Daily and monthly duration; Monthly standard deviation; Daily duration of maximum events [h]                    | h/day  |
+| Total number of wet days (≥1 mm)                                               | 0.25°              | None                         | Monthly total number of wet days (≥1 mm)                                                                        | days   |
+| Simple Precipitation Intensity Index (mean on wet days ≥1 mm during the month) | 0.25°              | None                         | Monthly                                                                                                         | mm/day |
+| TXx: Monthly maximum value of daily maximum temperature                        | 0.25°              | None                         | Monthly                                                                                                         | °C     |
+| TNx: Monthly maximum value of daily minimum temperature                        | 0.25°              | None                         | Monthly                                                                                                         | °C     |
+| TNn: Monthly minimum value of daily minimum temperature                        | 0.25°              | None                         | Monthly                                                                                                         | °C     |
+| TX90p: Percentage of warm days (&gt;90th percentile)                              | 0.25°              | None                         | Monthly                                                                                                         | %      |
+| TN90p: Percentage of warm nights (&gt;90th percentile)                            | 0.25°              | None                         | Monthly                                                                                                         | %      |
+| TX10p: Percentage of cold days (&lt;10th percentile)                              | 0.25°              | None                         | Monthly                                                                                                         | %      |
+| TN10p: Percentage of cold nights (&lt;10th percentile)                            | 0.25°              | None                         | Monthly                                                                                                         | %      |
+| Warm spell duration index                                                      | 0.25°              | None                         | Yearly                                                                                                          | days   |
+| Cold spell duration index                                                      | 0.25°              | None                         | Yearly                                                                                                          | days   |
+| WBGTmax90p: Percentage of days with extreme WBGTmax (&gt;90th percentile)         | 0.25°              | None                         | Monthly                                                                                                         | %      |
+| CWD: Maximum number of consecutive wet days                                    | 0.25°              | None                         | Monthly                                                                                                         | days   |
+| Rx5D: Monthly highest 5-day precipitation amount                               | 0.25°              | None                         | Monthly                                                                                                         | mm     |
+| R10mm: Heavy precipitation days (≥10 mm)                                       | 0.25°              | None                         | Monthly                                                                                                         | days   |
+| R20mm: Very heavy precipitation days (≥20 mm)                                  | 0.25°              | None                         | Monthly                                                                                                         | days   |
+| R75pTOT: Moderate wet days per month (≥75th percentile)                        | 0.25°              | None                         | Monthly                                                                                                         | days   |
+| R95pTOT: Very wet days per month (≥95th percentile)                            | 0.25°              | None                         | Monthly                                                                                                         | days   |</p>
+<p>|<strong>Atmospheric Composition Data: Air Quality and Pollution <sup id="fnref:10"><a class="footnote-ref" href="#fn:10">2</a></sup></strong>                |                    |                              |                                                                                                                |        |
+| Sea salt aerosol mixing ratios                     | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Dust aerosol mixing ratios                         | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Hydrophilic organic matter aerosol mixing ratio    | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Hydrophobic organic matter aerosol mixing ratio    | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Hydrophilic black carbon aerosol mixing ratio      | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Hydrophobic black carbon aerosol mixing ratio      | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Sulphate aerosol mixing ratio                      | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Nitrogen dioxide mass mixing ratio (NO₂)           | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Sulphur dioxide mass mixing ratio (SO₂)            | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/kg-1 |
+| Total column carbon monoxide (CO)                  | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-2  |
+| Total column formaldehyde (CH₂O)                   | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-2  |
+| Total column methane (CH₄)                         | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-2  |
+| Total column ozone (O₃)                            | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-2  |
+| Black carbon aerosol optical depth (AOD) at 550 nm | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Dust AOD at 550 nm                                 | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Organic matter AOD at 550 nm                       | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Sea salt AOD at 550 nm                             | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Sulphate AOD at 550 nm                             | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Total AOD at 550 nm                                | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation |         |
+| Particulate matter d &lt; 1 μm (PM₁)                  | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-3  |
+| Particulate matter d &lt; 2.5 μm (PM₂.₅)              | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-3  |
+| Particulate matter d &lt; 10 μm (PM₁₀)                | 0.75°              | None                         | 3-hourly; Monthly mean and standard deviation | kg/m-3  |</p>
 <div class="footnote">
 <hr />
 <ol>
-<li id="fn:1">
-<p>Esch T, Brzoska E, Dech S, et al. World Settlement Footprint 3D - A first three-dimensional survey of the global building stock. Remote Sensing of Environment 2022; 270: 112877. https://doi.org/10.1016/j.rse.2021.112877.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p>Hansen MC, Potapov PV, Moore R, et al. High-resolution global maps of 21st-century forest cover change. Science 2013; 342: 850–53. https://doi.org/10.1126/science.1244693.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
-</li>
-<li id="fn:3">
-<p>Sterckx S, Benhadj I, Duhoux G, et al. The PROBA-V mission: image processing and calibration. International Journal of Remote Sensing 2014; 35: 2565–88. https://doi.org/10.1080/01431161.2014.883094&amp;sa=D&amp;source=docs&amp;ust=1715602796580134&amp;usg=AOvVaw1abKuVnr4pQTOPHG90A7aD.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:4">
-<p>Pekel J-F, Cottam A, Gorelick N, Belward AS. High-resolution mapping of global surface water and its long-term changes. Nature 2016; 540: 418–22. https://doi.org/10.1038/nature20584.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:5">
-<p>Li X, Zhou Y, Zhao M, Zhao X. A harmonized global nighttime light dataset 1992-2018. Sci Data 2020; 7: 168. https://doi.org/10.1038/s41597-020-0510-y.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:6">
-<p>Muellejans H, Pavanello D, Sample T, et al. State-of-the-art assessment of solar energy technologies. 1831-9424 2022. https://doi.org/10.2760/735053.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
-</li>
-<li id="fn:7">
-<p>Solar Radiation Product by Julien Radoux (https://maps.elie.ucl.ac.be/lifewatch/geoviewer.html?tab=sun#).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">&#8617;</a></p>
-</li>
-<li id="fn:8">
-<p>European Union, ESA, DLR e.V., Airbus Defence and Space GmbH. Copernicus DEM, 2022.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">&#8617;</a></p>
-</li>
 <li id="fn:9">
-<p>Hersbach H, Bell B, Berrisford P, et al. The ERA5 global reanalysis. Quart J Royal Meteoro Soc 2020; 146: 1999–2049. https://doi.org/10.1002/qj.3803.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+<p>Hersbach H, Bell B, Berrisford P, et al. The ERA5 global reanalysis. Quart J Royal Meteoro Soc 2020; 146: 1999–2049. https://doi.org/10.1002/qj.3803.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:10">
-<p>Inness A, Ades M, Agustí-Panareda A, et al. The CAMS reanalysis of atmospheric composition. Atmos. Chem. Phys. 2019; 19: 3515–56. https://doi.org/10.5194/acp-19-3515-2019.&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">&#8617;</a></p>
+<p>Inness A, Ades M, Agustí-Panareda A, et al. The CAMS reanalysis of atmospheric composition. Atmos. Chem. Phys. 2019; 19: 3515–56. https://doi.org/10.5194/acp-19-3515-2019.&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:1">
+<p>Esch T, Brzoska E, Dech S, et al. World Settlement Footprint 3D - A first three-dimensional survey of the global building stock. Remote Sensing of Environment 2022; 270: 112877. https://doi.org/10.1016/j.rse.2021.112877.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Hansen MC, Potapov PV, Moore R, et al. High-resolution global maps of 21st-century forest cover change. Science 2013; 342: 850–53. https://doi.org/10.1126/science.1244693.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p>Sterckx S, Benhadj I, Duhoux G, et al. The PROBA-V mission: image processing and calibration. International Journal of Remote Sensing 2014; 35: 2565–88. https://doi.org/10.1080/01431161.2014.883094&amp;sa=D&amp;source=docs&amp;ust=1715602796580134&amp;usg=AOvVaw1abKuVnr4pQTOPHG90A7aD.&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p>Pekel J-F, Cottam A, Gorelick N, Belward AS. High-resolution mapping of global surface water and its long-term changes. Nature 2016; 540: 418–22. https://doi.org/10.1038/nature20584.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="fn:5">
+<p>Li X, Zhou Y, Zhao M, Zhao X. A harmonized global nighttime light dataset 1992-2018. Sci Data 2020; 7: 168. https://doi.org/10.1038/s41597-020-0510-y.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
+<p>Muellejans H, Pavanello D, Sample T, et al. State-of-the-art assessment of solar energy technologies. 1831-9424 2022. https://doi.org/10.2760/735053.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p>Solar Radiation Product by Julien Radoux (https://maps.elie.ucl.ac.be/lifewatch/geoviewer.html?tab=sun#).&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+<li id="fn:8">
+<p>European Union, ESA, DLR e.V., Airbus Defence and Space GmbH. Copernicus DEM, 2022.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 10 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
