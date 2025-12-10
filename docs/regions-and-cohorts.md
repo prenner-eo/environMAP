@@ -11,8 +11,13 @@ We collaborate with multiple cohort sites:
 | IMAGEN                                                            | [imagen-project.org](https://www.imagen-project.org){target="_blank"} | Developmental cohort                   |               ~2,000 |
 
 
+<figure>
+    <img src="../assets/images/environMAP_roi.png"
+        alt="environMAP Focus Area">
+    <figcaption>environMAP Focus Area and Cohort Locations</figcaption>
+</figure>
 
-![Cohort regions overview](assets/images/environMAP_roi.png)
+
 
 
 

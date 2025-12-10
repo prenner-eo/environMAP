@@ -20,7 +20,15 @@ Access to geospatial data used in this project follows a **request-based** model
 - Aggregation and anonymization where appropriate.
 
 
-**Attribution**
+**Citation**
 
 
-Please cite the project and relevant datasets as specified in the forthcoming paper.
+When using environMAP, please cite our paper.
+
+
+**Usage Policies**
+
+All datasets used in environMAP are open-access and publicly available, but each comes with its own licensing terms and conditions.
+We encourage users to review the terms of use for each of them to ensure proper citation and responsible use.
+This includes understanding any limits on redistribution, commercial use, or derivative works.
+You can find an overview of the main data sources and datasets included in environMAP Datasets here, which can help users identify the relevant licenses to consult as needed.

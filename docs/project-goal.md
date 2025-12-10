@@ -10,10 +10,3 @@ Our project investigates the relationships between environmental exposures and m
 1. Define harmonized environmental exposure metrics across regions.
 2. Model associations with mental health outcomes while controlling for key covariates.
 3. Share open, reusable methods and documentation to enable replication.
-
-
-**Outcomes**
-
-
-- Openly documented code fragments and processing steps.
-- A public-facing summary of findings (non-technical) and links to scientific publications (technical).
