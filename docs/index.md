@@ -1,7 +1,7 @@
 # Welcome to environMAP
 <font color="#BDDD6D"> **the Mapping Application Process for environmental datasets** </font>
 
-As part of the [environMENTAL project](environmental-project.org), environMAP integrates spatial environmental data with large-scale cohort studies by linking participants’ residential locations or movement patterns to geospatial variables. The infrastructure and methodology are designed to be scalable and applicable to additional countries worldwide.
+As part of the [environMENTAL project](https://www.environmental-project.org), environMAP integrates spatial environmental data with large-scale cohort studies by linking participants’ residential locations or movement patterns to geospatial variables. The infrastructure and methodology are designed to be scalable and applicable to additional countries worldwide.
 
 Our platform presents a curated selection of geospatial products spanning urbanicity and natural space, climate, weather extremes, air pollution, and regional socioeconomic status. The platform is currently in a preliminary stage, and we are actively expanding the database to include a broader range of environmental variables for Europe and beyond.
 
