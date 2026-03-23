@@ -26,7 +26,7 @@
 | Slope	 | 	30 m | 	30/300/500/1000/3000/5000/7500	| static with data from 2010-2015, 2019 | 	° | 
 | Aspect | 	30 m | 		None	| static with data from 2010-2015, 2019 | 	° | 
 | Terrain Ruggedness Index (TRI)	|  30 m	 | 	90	| 	static with data from 2010-2015, 2019 | |
-| Roughness		30 m	90		static with data from 2010-2015, 2019 | |
+| Roughness	|	30 m |	90	|	static with data from 2010-2015, 2019 | |
 | **Weather Patterns and Extreme Weather Data [^9]**                             |                    |                              |                                                                                                                 |        |
 | Cloud cover (total, high, medium and low clouds)                               | 0.25°              | None                         | Hourly; Monthly means and standard deviation                                                                    |        |
 | Temperature, 2 m                                                               | 0.25°              | None                         | Hourly; Diurnal range; Daily and monthly mean, maximum and minimum                                              | °C     |
